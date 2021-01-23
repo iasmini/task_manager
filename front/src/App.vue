@@ -1,60 +1,16 @@
 <template>
-  <v-app>
-    <v-app-bar
-      app
-      color="primary"
-      dark
-    >
-      <div class="d-flex align-center">
-        <v-img
-          alt="Vuetify Logo"
-          class="shrink mr-2"
-          contain
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-dark.png"
-          transition="scale-transition"
-          width="40"
-        />
+  <div id="app">
 
-        <v-img
-          alt="Vuetify Name"
-          class="shrink mt-1 hidden-sm-and-down"
-          contain
-          min-width="100"
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-name-dark.png"
-          width="100"
-        />
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Requisições HTTP no Vue</h1>
+        <p class="lead">Usando a biblioteca Axios para fazer chamadas Ajax à uma API REST.</p>
       </div>
+    </div>
 
-      <v-spacer></v-spacer>
+    <div class="container">
 
-      <v-btn
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
-        text
-      >
-        <span class="mr-2">Latest Release</span>
-        <v-icon>open_in_new</v-icon>
-      </v-btn>
-    </v-app-bar>
+    </div>
 
-    <v-main>
-      <HelloWorld/>
-    </v-main>
-  </v-app>
+  </div>
 </template>
-
-<script>
-import HelloWorld from './components/HelloWorld'
-
-export default {
-  name: 'App',
-
-  components: {
-    HelloWorld
-  },
-
-  data: () => ({
-    //
-  })
-}
-</script>

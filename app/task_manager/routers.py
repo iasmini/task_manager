@@ -4,3 +4,4 @@ from api.views import TaskViewSet
 
 router = routers.DefaultRouter()
 router.register(r'tasks', TaskViewSet)
+
